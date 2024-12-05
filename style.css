@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#main-data, #line-graph-section, #heat-graph-section, #scatter-graph-section {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+select, button {
+    margin: 10px 0;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}

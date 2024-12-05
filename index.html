@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trial v Steelers Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Trial v Steelers Web App</h1>
+
+    <!-- Main Data Section -->
+    <div id="main-data">
+        <h2>Main Table</h2>
+        <table id="mainTable"></table>
+    </div>
+
+    <!-- Line Graph Section -->
+    <div id="line-graph-section">
+        <h2>Line Graph</h2>
+        <canvas id="lineGraph"></canvas>
+    </div>
+
+    <!-- Heat Graph Section -->
+    <div id="heat-graph-section">
+        <h2>Heat Graph</h2>
+        <select id="heatDropdown"></select>
+        <button id="generateHeat">Generate Heat Graph</button>
+        <canvas id="heatGraph"></canvas>
+    </div>
+
+    <!-- Scatter Graph Section -->
+    <div id="scatter-graph-section">
+        <h2>Scatter Graph</h2>
+        <select id="scatterDropdown1"></select>
+        <select id="scatterDropdown2"></select>
+        <button id="generateScatter">Generate Scatter Graph</button>
+        <canvas id="scatterGraph"></canvas>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
